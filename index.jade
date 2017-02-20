@@ -1,7 +1,36 @@
 doctype
-html
-    head(lang = "en")
+html(lang = "en")
+    head
       title My Jade Tutorial Page
       meta(name="author" content="Jobith M Basheer")
       meta(name="description" content="Tutorial page to run through the basics of Jade") 
+      link(rel="stylesheet" href="css/styles.css")
+      link(rel="icon" href="img/favicon.png")
     body
+      div.container
+        section#sec-slider
+          div.slider
+            ul
+              li.slide: img(src="img/slide-1.jpg")
+              li.slide: img(src="img/slide-2.jpg")
+              li.slide: img(src="img/slide-3.jpg")
+              li.slide: img(src="img/slide-4.jpg")
+              
+        section#sec-welcome
+          div.heading
+            h3 Welcome to Jade
+            
+        section#sec-footer
+          div.footer
+            ul.left
+              li: a(href="#") Links
+              li: a(href="#") Links
+              li: a(href="#") Links
+              
+            ul.right
+              li: a(href="#") Links
+              li: a(href="#") Links
+              li: a(href="#") Links
+              
+        
+              

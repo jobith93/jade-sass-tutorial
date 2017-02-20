@@ -44,7 +44,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "jade-sass-tutorial",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "compass_orange"
+	"iconImageName": "globe_blue"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
@@ -201,7 +201,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost\/GitHub\/",
+	"externalServerAddress": "http:\/\/localhost\/GitHub\/jade-sass-tutorial",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
